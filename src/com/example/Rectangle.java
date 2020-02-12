@@ -15,7 +15,7 @@ public class Rectangle {
                  ++height) {
                 ans++;
             }
-            int height = 0;
+            int height;
                 for (height = length; height * length <= cell;
                      ++height) {
                     ans++;
