@@ -14,11 +14,13 @@ public class Rectangle {
             for (int height = 0; height * length <= cell && length > height;
                  ++height) {
                 ans++;
+            }
+            int height = 0;
                 for (height = length; height * length <= cell;
                      ++height) {
                     ans++;
+
                 }
-            }
         }
         return ans;
     }
