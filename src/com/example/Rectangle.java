@@ -6,7 +6,7 @@ public class Rectangle {
      * @param cell
      * @return количество прямоугольников(квадратов)
      */
-    private static int countRect(int cell) {
+    static int countRect(int cell) {
         int ans = 0;
 
         for (int length = 1; length <= Math.sqrt(cell);
